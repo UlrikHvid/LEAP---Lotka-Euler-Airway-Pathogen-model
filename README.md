@@ -10,7 +10,6 @@ LEAP is an analytically tractable within-host model of early respiratory viral i
 
 | File | Description |
 |---|---|
-| `Spreading_circles.pdf` | The manuscript |
 | `LEAP_analysis_and_figs.ipynb` | Main analysis notebook |
 | `LEAP_simulation.ipynb` | Stochastic simulation notebook |
 | `viral_titer_in_vitro.ipynb` | In vitro viral titer analysis notebook |
