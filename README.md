@@ -23,7 +23,7 @@ The primary notebook. Contains the full analytical framework: the main equation,
 A stochastic simulation of the plaque birth process. Individual foci are tracked over time, with births drawn from a Poisson process proportional to the rate of change of infected area. Supports optional features such as a growth delay *a_g*, an IFN-induced growth cap via *p_n*. Used to produce supplementary figures validating the analytical predictions.
 
 ### `viral_titer_in_vitro.ipynb`
-Processes one-step growth curve data (viral titer vs. time post-infection) for SARS-CoV-2 WT, Delta, and IAV. Titers are discounted by the factor *e*^(−λ*t*) to identify the time point at which the seed cell contributes most to population growth, giving the delay parameter *a_g*. Used to produce supplementary figure S1.
+Processes one-step growth curve data (viral titer vs. time post-infection) for SARS-CoV-2 WT, Delta, and IAV. Titers are discounted by the factor *e*^(−λ*t*) to identify the time point at which the seed cell contributes most to population growth, giving the delay parameter *a_g*. Used to produce supplementary figure S1. SARS-CoV-2 data from Khandelwal et al., 2021, Frontiers Cell. Inf. Micro. IAV data from Frensing et al., 2016, Appl. Microb. cell phys.
 
 ## Key model parameters
 
